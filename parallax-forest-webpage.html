@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/path/to/parallax.js"></script>
+<script src="simpleParallax.js"></script>
+    <script src="sample.js"></script> 
+</head>
+<body>
+    <div class="nav" >
+        <div class="logo">
+            <img class="images" src="macos-catalina-2019-10-08 (1).png" >
+        </div>
+        <div class="nav-bar">
+            
+                <a href="#" class="fluid-button">home</a>
+                <a href="#" class="fluid-button">
+                    pictures</a>
+                <a href="#" class="fluid-button">
+                    profile
+                </a>
+
+        </div>
+        <div class="nav-end">
+            <a href="#foodmain" class="fluid-button" id="scrollbutton">
+            <i  id="changeId" class="far fa-arrow-alt-circle-down" color="blue" onclick="clickdownArrow()"></i></a>
+        </div>
+
+    </div>
+    <div class="forest-main" id="forest-main" onwheel="scrolledforest()" onscroll="onScrollForest()">
+        <div class="banners" class="parallax-window" data-parallax="scroll" data-image-src="forest.jpg">
+
+            <div class="banner-left-pop" id="left-banner" data-parallax="scroll" data-speed=".2">
+           <h6>this is the tag </h6>
+            </div>
+            <div class="banner-right-pop" id="right-banner">
+                <h6>this is the tag </h6>
+            </div>
+        </div>
+    </div>
+    <div class="food-main"  id="foodmain" onclick="window.location.hash='back'; ">
+       
+    </div>
+</html>
