@@ -77,8 +77,8 @@ a{
  
  }
 .images{
-    
-    height:3em;
+
+    height:2.4em;
 }
 
 .banners{
@@ -88,12 +88,14 @@ a{
     align-items: unset;
     justify-content: space-around;
     z-index: 2;
-    flex-shrink: inherit;
+    flex-shrink: initial;
     flex-wrap: wrap;
-    flex-grow: inherit;
+    flex-grow: unset;
     height: relative;
 }
-
+.banner-container{
+    
+}
 .banner-left-pop{
     -webkit-box-shadow: -26px -27px 103px -23px rgba(105,105,105,0.85);
     -moz-box-shadow: -26px -27px 103px -23px rgba(105,105,105,0.85);
@@ -105,12 +107,13 @@ a{
 
 .common-banner,.banner-right-pop,.banner-left-pop{
     padding-top: 2rem;
-    height: 3rem;
+    height: relative;
     width: 15rem;
     background-color:transparent;
    
     text-align: center;
     border-style: dotted;
+
     
 }
 
