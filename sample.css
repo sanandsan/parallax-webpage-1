@@ -91,6 +91,7 @@ a{
     flex-shrink: inherit;
     flex-wrap: wrap;
     flex-grow: inherit;
+    height: relative;
 }
 
 .banner-left-pop{
